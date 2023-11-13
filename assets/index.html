@@ -10,10 +10,10 @@
 </head>
 <body>
 
-    <nav>
+    <nav class="white z-depth-0">
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#!" class="blue-text">Home</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons blue-text">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="sass.html">Sass</a></li>
             <li><a href="badges.html">Components</a></li>
@@ -24,10 +24,22 @@
       </nav>
     
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><div class="user-view">
+            <div class="background" style="background: linear-gradient(to top left , red , blue);">
+
+            </div>
+            <a href="#user"><img class="circle" src="/assets/img/photo_2023-11-01_14-24-55.jpg"></a>
+            <a href="#name"><span class="white-text name">Mohsen Fakoori</span></a>
+            <a href="#email"><span class="white-text email">mohsenfakooori@gmail.com</span></a>
+          </div></li>
+          <li><a href="https://on.soundcloud.com/kjdy6tz9iczbNXXL6"><i class="material-icons">cloud</i>SoundCloud</a></li>
+          <li><a href="https://t.me/cdjmohsen"><i class="material-icons">near_me</i>Telegram Channel</a></li>
+          <li><a href="#!">Second Link</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader">Pages : </a></li>
+          <li><a class="waves-effect" href="#!">Home</a></li>
+          <li><a class="waves-effect" href="#!">Page 1</a></li>
+          <li><a class="waves-effect" href="#!">Page 2</a></li>
       </ul>
               
     <script src="/assets/materialize/js/materialize.min.js"></script>
